@@ -1,4 +1,16 @@
 import UIKit
 
-var greeting = "stack data structure"
-print(greeting)
+func printStack() {
+    let array = ["a", "b", "c", "d"]
+    var stack = Stack(array)
+    print(stack)
+    stack.pop()
+    print(stack)
+}
+printStack()
+
+
+
+
+
+
