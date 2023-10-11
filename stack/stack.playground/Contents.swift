@@ -9,6 +9,8 @@ func printStack() {
 }
 printStack()
 
+print("hello world")
+
 
 
 
